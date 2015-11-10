@@ -34,9 +34,12 @@ namespace demobasedatos
             {
                 demoEF db = new demoEF();
                 Empleado emp = new Empleado();
+               
                 emp.Nombre = txtnombre.Text;
                 emp.Sueldo = int.Parse(txtsueldo.Text);
+                
                 db.Empleados.Add(emp);
+             
                 db.SaveChanges();
             }
             else
@@ -120,6 +123,14 @@ namespace demobasedatos
             var registros = from s in db.Empleados                           
                             select s;
             DBgrid.ItemsSource = registros.ToList();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            demoEF db = new demoEF();
+            CBDeps.ItemsSource = db.Departamentoss.ToList();
+            CBDeps.DisplayMemberPath = "Nombre";
+            CBDeps.SelectedValuePath = "id";
         }
     }
 }
