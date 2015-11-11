@@ -13,5 +13,7 @@ namespace demobasedatos.MiBD
         public string Nombre { get; set; }
 
         public int Sueldo { get; set; }
-    }
+
+        public virtual int DepartamentosId { get; set; }
+}
 }

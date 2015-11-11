@@ -18,3 +18,4 @@ c:\users\albertor\documents\visual studio 2015\Projects\demobasedatos\demobaseda
 c:\users\albertor\documents\visual studio 2015\Projects\demobasedatos\demobasedatos\obj\Debug\demobasedatos.pdb
 c:\users\albertor\documents\visual studio 2015\Projects\demobasedatos\demobasedatos\obj\Debug\demobasedatos.Migrations.Empleadotabla.resources
 C:\Users\AlbertoR\Documents\Visual Studio 2015\Projects\demobasedatos\demobasedatos\obj\Debug\demobasedatos.Migrations.deps.resources
+C:\Users\AlbertoR\Documents\Visual Studio 2015\Projects\demobasedatos\demobasedatos\obj\Debug\demobasedatos.Migrations.Correcciondep.resources

@@ -37,9 +37,8 @@ namespace demobasedatos
                
                 emp.Nombre = txtnombre.Text;
                 emp.Sueldo = int.Parse(txtsueldo.Text);
-                
+                emp.DepartamentosId = (int)CBDeps.SelectedValue;
                 db.Empleados.Add(emp);
-             
                 db.SaveChanges();
             }
             else

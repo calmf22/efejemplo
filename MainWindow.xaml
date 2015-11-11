@@ -18,7 +18,7 @@
         <Button x:Name="button2" Content="Borrar" HorizontalAlignment="Left" Height="34" Margin="608,18,0,0" VerticalAlignment="Top" Width="100" Click="button2_Click"/>
         <Button x:Name="button3" Content="Consultar por ID" HorizontalAlignment="Left" Height="35" Margin="384,62,0,0" VerticalAlignment="Top" Width="139" Click="button3_Click"/>
         <Button x:Name="button4" Content="Consultar todo" HorizontalAlignment="Left" Height="35" Margin="569,62,0,0" VerticalAlignment="Top" Width="139" Click="button4_Click"/>
-        <DataGrid x:Name="DBgrid" HorizontalAlignment="Left" Margin="272,156,0,0" VerticalAlignment="Top" Height="133" Width="233"/>
+        <DataGrid x:Name="DBgrid" HorizontalAlignment="Left" Margin="272,156,0,0" VerticalAlignment="Top" Height="133" Width="300"/>
         <Label x:Name="label3" Content="Departamento" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="CBDeps" HorizontalAlignment="Left" Margin="102,138,0,0" VerticalAlignment="Top" Width="120"/>
 
